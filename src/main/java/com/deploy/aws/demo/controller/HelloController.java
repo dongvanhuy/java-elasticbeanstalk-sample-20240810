@@ -16,7 +16,8 @@ public class HelloController {
     public ResponseEntity<?> greetings() {
 
         return new ResponseEntity<Object>(
-                "<h1 style='color:red;'>Congratulations HuyDV11, your app has been deployed!<h1>", HttpStatus.OK);
+                "<h1 style='color:green;'>Congratulations HuyDV11, your app has been deployed!<h1><h2>17-09-2024</h2>",
+                HttpStatus.OK);
     }
 
 }
